@@ -77,7 +77,7 @@ class Powerline:
 
     def draw(self):
         text = (''.join(self.draw_segment(i) for i in range(len(self.segments)))
-                + self.reset) + ' '
+                + self.reset)
         if py3:
             return text
         else:
