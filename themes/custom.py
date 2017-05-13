@@ -3,19 +3,19 @@ class DefaultColor:
     This class should have the default colors for every segment.
     Please test every new segment with this theme first.
     """
-    USERNAME_FG = 250
+    USERNAME_FG = 231
     USERNAME_BG = 240
     USERNAME_ROOT_BG = 124
 
-    HOSTNAME_FG = 250
+    HOSTNAME_FG = 231
     HOSTNAME_BG = 238
 
     HOME_SPECIAL_DISPLAY = False
     HOME_BG = 237  # blueish
-    HOME_FG = 250  # white
+    HOME_FG = 231  # white
     PATH_BG = 31  # dark grey
     PATH_FG = 15  # light grey
-    CWD_FG = 250  # white
+    CWD_FG = 231  # white
     SEPARATOR_FG = 254
 
     READONLY_BG = 124
@@ -41,9 +41,9 @@ class DefaultColor:
     SVN_CHANGES_FG = 22  # dark green
 
     GIT_AHEAD_BG = 240
-    GIT_AHEAD_FG = 250
+    GIT_AHEAD_FG = 231
     GIT_BEHIND_BG = 240
-    GIT_BEHIND_FG = 250
+    GIT_BEHIND_FG = 231
     GIT_STAGED_BG = 22
     GIT_STAGED_FG = 15
     GIT_NOTSTAGED_BG = 130
