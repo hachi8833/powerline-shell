@@ -41,7 +41,7 @@ class DefaultColor:
     SVN_CHANGES_FG = 15  # dark green
 
     GIT_AHEAD_BG = 240
-    GIT_AHEAD_FG = 15
+    GIT_AHEAD_FG = 250
     GIT_BEHIND_BG = 240
     GIT_BEHIND_FG = 15
     GIT_STAGED_BG = 22
