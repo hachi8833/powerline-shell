@@ -144,7 +144,7 @@ class RepoStats:
     def add_to_powerline(self, powerline, color):
         def add(_key, fg, bg):
             if self[_key]:
-                s = u" {}{} ".format(self.n_or_empty(_key), self.symbols[_key])
+                s = u"{}{}".format(self.n_or_empty(_key), self.symbols[_key])
                 powerline.append(s, fg, bg)
         add('ahead', color.GIT_AHEAD_FG, color.GIT_AHEAD_BG)
         add('behind', color.GIT_BEHIND_FG, color.GIT_BEHIND_BG)

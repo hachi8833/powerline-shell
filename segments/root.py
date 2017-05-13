@@ -1,8 +1,8 @@
 def add_root_segment(powerline):
     root_indicators = {
-        'bash': ' \\$ ',
-        'zsh': ' %# ',
-        'bare': ' $ ',
+        'bash': '\\$',
+        'zsh': '%#',
+        'bare': '$',
     }
     bg = Color.CMD_PASSED_BG
     fg = Color.CMD_PASSED_FG

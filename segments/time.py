@@ -1,10 +1,10 @@
 def add_time_segment(powerline):
     if powerline.args.shell == 'bash':
-        time = ' \\t '
+        time = '\\t'
     elif powerline.args.shell == 'zsh':
-        time = ' %* '
+        time = '%*'
     else:
         import time
-        time = ' %s ' % time.strftime('%H:%M:%S')
+        time = '%s' % time.strftime('%H:%M:%S')
 
     powerline.append(time, Color.HOSTNAME_FG, Color.HOSTNAME_BG)

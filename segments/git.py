@@ -33,7 +33,7 @@ def _get_git_detached_branch():
                          env=git_subprocess_env())
     detached_ref = p.communicate()[0].decode("utf-8").rstrip('\n')
     if p.returncode == 0:
-        branch = u'{} {}'.format(RepoStats.symbols['detached'], detached_ref)
+        branch = u'{}{}'.format(RepoStats.symbols['detached'], detached_ref)
     else:
         branch = 'Big Bang'
     return branch
@@ -86,5 +86,5 @@ def add_git_segment(powerline):
         bg = Color.REPO_DIRTY_BG
         fg = Color.REPO_DIRTY_FG
 
-    powerline.append(' %s ' % branch, fg, bg)
+    powerline.append('%s' % branch, fg, bg)
     stats.add_to_powerline(powerline, Color)
