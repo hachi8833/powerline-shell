@@ -16,7 +16,7 @@ class DefaultColor:
     PATH_BG = 31  # dark grey
     PATH_FG = 231  # light grey
     CWD_FG = 231  # white
-    SEPARATOR_FG = 254
+    SEPARATOR_FG = 237
 
     READONLY_BG = 124
     READONLY_FG = 254
@@ -32,7 +32,7 @@ class DefaultColor:
     JOBS_FG = 39
     JOBS_BG = 238
 
-    CMD_PASSED_BG = 236
+    CMD_PASSED_BG = 31
     CMD_PASSED_FG = 15
     CMD_FAILED_BG = 161
     CMD_FAILED_FG = 15
