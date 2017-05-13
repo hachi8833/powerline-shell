@@ -14,7 +14,7 @@ class DefaultColor:
     HOME_BG = 237  # blueish
     HOME_FG = 231  # white
     PATH_BG = 31  # dark grey
-    PATH_FG = 15  # light grey
+    PATH_FG = 231  # light grey
     CWD_FG = 231  # white
     SEPARATOR_FG = 254
 
@@ -25,9 +25,9 @@ class DefaultColor:
     SSH_FG = 254
 
     REPO_CLEAN_BG = 148  # a light green color
-    REPO_CLEAN_FG = 231  # black
+    REPO_CLEAN_FG = 0  # black
     REPO_DIRTY_BG = 161  # pink/red
-    REPO_DIRTY_FG = 231  # white
+    REPO_DIRTY_FG = 15  # white
 
     JOBS_FG = 39
     JOBS_BG = 238
