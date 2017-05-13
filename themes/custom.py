@@ -37,7 +37,7 @@ class DefaultColor:
     CMD_FAILED_BG = 161
     CMD_FAILED_FG = 15
 
-    SVN_CHANGES_BG = 148
+    SVN_CHANGES_BG = 70
     SVN_CHANGES_FG = 15  # dark green
 
     GIT_AHEAD_BG = 98
